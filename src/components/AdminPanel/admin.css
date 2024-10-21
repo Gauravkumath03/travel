@@ -1,0 +1,27 @@
+{
+  background-color: #1d2634;
+
+}
+.username{
+  border:  15px  inset;
+  width: max-content;
+  padding: 20px 30px;
+  margin: 30px; 
+  margin-left: 500px;
+  margin-top: 90px;
+  border-radius: 9px;
+}
+#amd{
+  margin-left: 22px;
+}
+input{
+border-radius: 6px solid;
+
+}
+button{
+  border: 2px initial;
+  border-radius: 9px;
+  font-size: 16px;
+  color: antiquewhite;
+  padding: 11px;
+}

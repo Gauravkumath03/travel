@@ -1,0 +1,14 @@
+
+.footer {
+  position: relative;
+  padding: 60px 0;
+  color: #ffffff;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer .social-icons a {
+  font-size: 20px;
+}

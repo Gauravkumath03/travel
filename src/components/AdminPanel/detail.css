@@ -1,0 +1,81 @@
+
+.content{
+    padding: 20px;
+    margin-left: 250px; 
+}
+
+/* Header styling */
+h2 {
+    color: #343a40; /* Dark color for header */
+    text-align: center; /* Center the header */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+/* Basic styles for the table */
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Collapse borders */
+    margin: 0 auto; /* Center the table */
+    font-size: 16px; /* Font size for table text */
+    background-color: #f8f9fa; /* Light background color */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for a slight 3D effect */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Styling for table headers */
+thead {
+    background-color: #007bff; /* Primary color for header */
+    color: #ffffff; /* White text for headers */
+}
+
+thead th {
+    padding: 12px; /* Padding for header cells */
+    text-transform: uppercase; /* Uppercase text */
+}
+
+/* Table body row styles */
+tbody tr {
+    border-bottom: 1px solid #dee2e6; /* Light gray bottom border */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for table rows */
+tbody tr:hover {
+    background-color: #e9ecef; /* Light gray background on hover */
+}
+
+/* Table data cell styles */
+td {
+    padding: 12px; /* Padding for data cells */
+    color: #212529; /* Dark text color */
+}
+
+/* Adjusting column width */
+td:nth-child(1) {
+    width: 10%; /* Name column */
+}
+
+td:nth-child(2) {
+    width: 10%; /* Email column */
+}
+
+td:nth-child(3) {
+    width: 20%; /* Password column */
+}
+td:nth-child(4) {
+    width: 20%; /* Password column */
+}
+td:nth-child(5) {
+    width: 20%; /* Password column */
+}
+
+/* Responsive table for smaller screens */
+@media (max-width: 768px) {
+    table {
+        font-size: 14px; /* Smaller font size on small screens */
+    }
+
+    td {
+        padding: 8px; /* Less padding for table data */
+    }
+}

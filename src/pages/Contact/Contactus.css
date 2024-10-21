@@ -1,0 +1,21 @@
+/* src/pages/ContactUs.css */
+.contact-us-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .map-container {
+    margin-top: 20px;
+  }
+  
+  h2, h3 {
+    color: #007bff;
+  }
+  
+  button {
+    background-color: #007bff;
+    border: none;
+  }
+  
